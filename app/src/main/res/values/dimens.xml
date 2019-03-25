@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_padding">8dp</dimen>
+    <dimen name="mid_margin">20dp</dimen>
+    <dimen name="text_size_mid">24sp</dimen>
+    <dimen name="btn_text_mid">19sp</dimen>
+</resources>

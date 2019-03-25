@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TareaLabo3</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="hint_email">email</string>
+    <string name="hint_gender">gender</string>
+    <string name="btn_share">share</string>
+</resources>
