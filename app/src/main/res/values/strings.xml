@@ -5,4 +5,8 @@
     <string name="hint_email">email</string>
     <string name="hint_gender">gender</string>
     <string name="btn_share">share</string>
+    <string name="string_user_new">USER:</string>
+    <string name="string_pass_new">PASS:</string>
+    <string name="string_email_new">EMAIL:</string>
+    <string name="string_gender_new">GENDER:</string>
 </resources>

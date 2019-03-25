@@ -12,7 +12,7 @@ import com.example.salomoncastro.tarealabo3.utils.AppConstants;
 public class MainActivity extends AppCompatActivity {
 
     private EditText mUsername, mPassword, mEmail, mGender;
-    private Button mBotonShare, mBotonCompart;
+    private Button mBotonShare, mBotonCompartir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mGender = findViewById(R.id.et_gender);
 
         mBotonShare = findViewById(R.id.btn_share);
+        mBotonCompartir = findViewById(R.id.btn_compartir);
 
         mBotonShare.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent mIntent = new Intent(MainActivity.this,NewActivity.class);
                 mIntent.putExtra(AppConstants.USER_KEY,textUser);
+                mIntent.putExtra(AppConstants.PASS_KEY,textPass);
+                mIntent.putExtra(AppConstants.EMAIL_KEY,textEmail);
+                mIntent.putExtra(AppConstants.GENDER_KEY,textGender);
                 startActivity(mIntent);
             }
         });

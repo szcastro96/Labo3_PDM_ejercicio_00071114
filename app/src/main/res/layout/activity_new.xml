@@ -8,9 +8,74 @@
     android:orientation="vertical">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_mid"
+        android:text="@string/string_user_new"
+        android:layout_gravity="center"/>
+    <TextView
         android:id="@+id/tv_new_user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="@dimen/normal_padding"
+        android:paddingTop="@dimen/normal_padding"
+        android:gravity="center"
         android:textSize="@dimen/text_size_mid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_mid"
+        android:text="@string/string_pass_new"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_padding"
+        android:paddingTop="@dimen/normal_padding"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_mid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_mid"
+        android:text="@string/string_email_new"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_new_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_padding"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_mid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_mid"
+        android:text="@string/string_gender_new"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_new_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_padding"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_mid" />
+
+    <Button
+        android:id="@+id/btn_compartir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_padding"
+        android:textSize="@dimen/text_size_mid"
+        android:layout_gravity="center"
+        android:text="share"/>
+
 
 </LinearLayout>

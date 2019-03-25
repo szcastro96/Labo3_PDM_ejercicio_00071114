@@ -4,4 +4,5 @@
     <dimen name="mid_margin">20dp</dimen>
     <dimen name="text_size_mid">24sp</dimen>
     <dimen name="btn_text_mid">19sp</dimen>
+    <dimen name="big_padding">48dp</dimen>
 </resources>
